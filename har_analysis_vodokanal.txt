@@ -1,0 +1,4480 @@
+ENTRY 16 https://my.vodokanal.kiev.ua/assets/images/payment_services/masterpass.png
+  RES 200 
+  TEXT
+iVBORw0KGgoAAAANSUhEUgAAAJ8AAAA6CAYAAACuyou9AAABN2lDQ1BBZG9iZSBSR0IgKDE5OTgpAAAokZWPv0rDUBSHvxtFxaFWCOLgcCdRUGzVwYxJW4ogWKtDkq1JQ5ViEm6uf/oQjm4dXNx9AidHwUHxCXwDxamDQ4QMBYvf9J3fORzOAaNi152GUYbzWKt205Gu58vZF2aYAoBOmKV2q3UAECdxxBjf7wiA10277jTG+38yH6ZKAyNguxtlIYgK0L/SqQYxBMygn2oQD4CpTto1EE9AqZf7G1AKcv8ASsr1fBBfgNlzPR+MOcAMcl8BTB1da4Bakg7UWe9Uy6plWdLuJkEkjweZjs4zuR+HiUoT1dFRF8jvA2AxH2w3HblWtay99X/+PRHX82Vun0cIQCw9F1lBeKEuf1UYO5PrYsdwGQ7vYXpUZLs3cLcBC7dFtlqF8hY8Dn8AwMZP/fNTP8gAAAAJcEhZcwAACxMAAAsTAQCanBgAAAXBaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzE0NSA3OS4xNjM0OTksIDIwMTgvMDgvMTMtMTY6NDA6MjIgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTktMDUtMzBUMTg6MTY6NDUrMDM6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE5LTA1LTMwVDE4OjI4OjE0KzAzOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE5LTA1LTMwVDE4OjI4OjE0KzAzOjAwIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjg0MzA5ZDNkLWFlMDMtM2Q0YS1hNmI5LTNkNmI2ODMzOWM3MyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpENEY3Mzk0MjY5MDcxMUU1OEM3Q0U1NENEOUExMUY5QSIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOkQ0RjczOTQyNjkwNzExRTU4QzdDRTU0Q0Q5QTExRjlBIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkQ0RjczOTNGNjkwNzExRTU4QzdDRTU0Q0Q5QTExRjlBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkQ0RjczOTQwNjkwNzExRTU4QzdDRTU0Q0Q5QTExRjlBIi8+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjg0MzA5ZDNkLWFlMDMtM2Q0YS1hNmI5LTNkNmI2ODMzOWM3MyIgc3RFdnQ6d2hlbj0iMjAxOS0wNS0zMFQxODoyODoxNCswMzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8L3J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
+---
+ENTRY 22 https://my.vodokanal.kiev.ua/api/warehouse/consumer/invoice/amount_to_pay?serviceProviderCode=999&code=0503013595
+  RES 200 
+  JSON type dict len 3
+{
+  "debt": 47.52,
+  "billAmount": 440.57,
+  "amountToPay": 440.57
+}
+---
+ENTRY 23 https://my.vodokanal.kiev.ua/api/warehouse/consumer/payments/history
+  REQ POST
+{"from":"2026-01-31T22:00:00.000Z","to":"2026-05-31T20:59:59.999Z","serviceProviderId":11}
+  RES 200 
+  JSON type list len 5
+[
+  {
+    "id": 994026722,
+    "bankCode": "0",
+    "payment": {
+      "id": 994026722,
+      "date": "2026-02-11T19:24:27.230+00:00",
+      "statusId": 1,
+      "externalTran": "739686200701",
+      "amount": 212.69,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2778667497,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2026-02-11T19:24:27.247+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 994026723,
+    "bankCode": "0",
+    "payment": {
+      "id": 994026723,
+      "date": "2026-02-11T19:24:27.460+00:00",
+      "statusId": 1,
+      "externalTran": "739686200201",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2779193846,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2026-02-11T19:24:27.473+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 997321169,
+    "bankCode": "0",
+    "payment": {
+      "id": 997321169,
+      "date": "2026-03-12T18:31:56.113+00:00",
+      "statusId": 1,
+      "externalTran": "749986780601",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2786100772,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2026-03-12T18:31:56.127+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 997321170,
+    "bankCode": "0",
+    "payment": {
+      "id": 997321170,
+      "date": "2026-03-12T18:31:56.340+00:00",
+      "statusId": 1,
+      "externalTran": "749986780401",
+      "amount": 212.69,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2785574476,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2026-03-12T18:31:56.353+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 1001274715,
+    "bankCode": "0",
+    "payment": {
+      "id": 1001274715,
+      "date": "2026-04-18T08:32:57.013+00:00",
+      "statusId": 1,
+      "externalTran": "763114939401",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2793176470,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2026-04-18T08:32:57.030+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  }
+]
+---
+ENTRY 24 https://my.vodokanal.kiev.ua/api/warehouse/consumer/counters?serviceProviderCode=999&invoiceAccountCode=0503013595
+  RES 200 
+  JSON type list len 2
+[
+  {
+    "id": 11890342,
+    "code": "99900000809453",
+    "number": "16998084",
+    "installationPlace": null,
+    "checkDate": "2025-12-29T00:00:00Z",
+    "nextCheckDate": "2029-12-29T00:00:00Z",
+    "counterType": {
+      "id": 2,
+      "code": "000000002",
+      "name": "Холодна вода"
+    },
+    "counterStatus": {
+      "id": 3,
+      "name": "Прилад обліку наявний та працює"
+    },
+    "beginFactor": null,
+    "endFactor": null,
+    "address": null,
+    "contragent": null,
+    "department": null
+  },
+  {
+    "id": 11754842,
+    "code": "99900000809454",
+    "number": "18137423",
+    "installationPlace": null,
+    "checkDate": "2025-12-29T00:00:00Z",
+    "nextCheckDate": "2029-12-29T00:00:00Z",
+    "counterType": {
+      "id": 3,
+      "code": "000000003",
+      "name": "Гаряча вода"
+    },
+    "counterStatus": {
+      "id": 3,
+      "name": "Прилад обліку наявний та працює"
+    },
+    "beginFactor": null,
+    "endFactor": null,
+    "address": null,
+    "contragent": null,
+    "department": null
+  }
+]
+---
+ENTRY 25 https://my.vodokanal.kiev.ua/api/warehouse/consumer/counter/factors/history
+  REQ POST
+{"invoiceAccountCode":"0503013595","serviceProviderCode":"999","range":{"from":"2025-04-30T21:00:00.000Z","to":"2026-05-31T20:59:59.999Z"}}
+  RES 200 
+  JSON type list len 44
+[
+  {
+    "id": 471965022,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-04-01T00:00:00Z",
+    "beginFactor": 44.0,
+    "endFactor": 44.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-04-21T16:10:16.773Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 466342432,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-04-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 44.0,
+    "difference": 2.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-04-03T06:50:14.213Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 468014928,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-03-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 4,
+    "factorInputSource": {
+      "id": 4,
+      "name": "Розрахунковий"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-03-31T20:59:59Z",
+      "uc": 314793
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 457233263,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-02-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 1,
+    "factorInputSource": {
+      "id": 1,
+      "name": "Споживач"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-02-27T11:38:31.967Z",
+      "uc": 394386
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 88193409,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 448060929,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-01-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-01-17T15:27:44.493Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 84959879,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+         
+---
+ENTRY 26 https://my.vodokanal.kiev.ua/api/warehouse/consumer/counter/factors/history
+  REQ POST
+{"invoiceAccountCode":"0503013595","serviceProviderCode":"999","range":{"from":"2025-04-30T21:00:00.000Z","to":"2026-05-31T20:59:59.999Z"}}
+  RES 200 
+  JSON type list len 44
+[
+  {
+    "id": 471965022,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-04-01T00:00:00Z",
+    "beginFactor": 44.0,
+    "endFactor": 44.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-04-21T16:10:16.773Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 466342432,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-04-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 44.0,
+    "difference": 2.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-04-03T06:50:14.213Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 468014928,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-03-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 4,
+    "factorInputSource": {
+      "id": 4,
+      "name": "Розрахунковий"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-03-31T20:59:59Z",
+      "uc": 314793
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 457233263,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-02-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 1,
+    "factorInputSource": {
+      "id": 1,
+      "name": "Споживач"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-02-27T11:38:31.967Z",
+      "uc": 394386
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 88193409,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 448060929,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-01-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-01-17T15:27:44.493Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 84959879,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+         
+---
+ENTRY 27 https://my.vodokanal.kiev.ua/api/warehouse/consumer/tariff?serviceProviderCode=999&invoiceAccountCode=0503013595
+  RES 200 
+  JSON type list len 4
+[
+  {
+    "invoiceId": 2793176470,
+    "billingDate": "2026-04-01T00:00:00Z",
+    "tariffAmount": 47.52,
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595",
+      "name": "КОЧЕТКОВА Л.В."
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "subService": null,
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "authorInfo": {
+      "dc": "2026-05-06T19:16:58.120Z",
+      "uc": 314793
+    }
+  },
+  {
+    "invoiceId": 2792650263,
+    "billingDate": "2026-04-01T00:00:00Z",
+    "tariffAmount": 14.22,
+    "invoiceAccount": {
+      "id": 8508243,
+      "code": "0503013595",
+      "name": "КОЧЕТКОВА Л.В."
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "subService": {
+      "id": 15,
+      "code": "15",
+      "name": "Централізоване водовідведення (ГВ)"
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "authorInfo": {
+      "dc": "2026-05-06T19:09:02.287Z",
+      "uc": 314793
+    }
+  },
+  {
+    "invoiceId": 2792650257,
+    "billingDate": "2026-04-01T00:00:00Z",
+    "tariffAmount": 16.164,
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595",
+      "name": "КОЧЕТКОВА Л.В."
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "subService": {
+      "id": 12,
+      "code": "12",
+      "name": "Централізоване водопостачання (ХВ)"
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "authorInfo": {
+      "dc": "2026-05-06T19:09:02.287Z",
+      "uc": 314793
+    }
+  },
+  {
+    "invoiceId": 2792650257,
+    "billingDate": "2026-04-01T00:00:00Z",
+    "tariffAmount": 14.22,
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595",
+      "name": "КОЧЕТКОВА Л.В."
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "subService": {
+      "id": 11,
+      "code": "11",
+      "name": "Централізоване водовідведення (ГВ) (ХВ)"
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "authorInfo": {
+      "dc": "2026-05-06T19:09:18.490Z",
+      "uc": 314793
+    }
+  }
+]
+---
+ENTRY 32 https://my.vodokanal.kiev.ua/api/warehouse/consumer/invoice_accounts?serviceProviderGroupIds=22
+  RES 200 
+  JSON type list len 3
+[
+  {
+    "id": 4183072,
+    "consumerUserId": 394386,
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595",
+      "name": "КОЧЕТКОВА Л.В.",
+      "legalEntityType": {
+        "id": 1,
+        "name": "Фізична"
+      },
+      "service": {
+        "id": 10,
+        "name": "Централізоване водопостачання та водовідведення",
+        "code": "2",
+        "serviceType": {
+          "id": 16,
+          "name": "Водопостачання та водовідведення"
+        }
+      },
+      "address": {
+        "city": {
+          "id": 11530,
+          "name": "КИЇВ",
+          "fullName": "кр. Україна, Київська обл., м. КИЇВ",
+          "type": {
+            "id": 4,
+            "name": "Місто"
+          },
+          "prefix": "м.",
+          "postfix": "",
+          "prefixNamePostfix": "м. КИЇВ"
+        },
+        "street": {
+          "id": 57510674,
+          "name": "Героїв полку \"Азов\"",
+          "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\"",
+          "type": {
+            "id": 6,
+            "name": "Вулиця"
+          },
+          "prefix": "вул.",
+          "postfix": "",
+          "prefixNamePostfix": "вул. Героїв полку \"Азов\""
+        },
+        "building": {
+          "id": 57517730,
+          "name": "13",
+          "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13",
+          "type": {
+            "id": 7,
+            "name": "Будинок"
+          },
+          "prefix": "буд.",
+          "postfix": "",
+          "prefixNamePostfix": "буд. 13"
+        },
+        "flat": {
+          "id": 276081345,
+          "name": "59",
+          "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59",
+          "type": {
+            "id": 9,
+            "name": "Квартира"
+          },
+          "prefix": "кв.",
+          "postfix": "",
+          "prefixNamePostfix": "кв. 59"
+        }
+      },
+      "route": null,
+      "constrictAddress": {
+        "id": 276081345,
+        "name": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)",
+      "invoicePeriod": null
+    },
+    "apartmentDetail": {
+      "calcArea": 0,
+      "heatArea": 43,
+      "personalCount": 4,
+      "realPersonalCount": 4
+    }
+  },
+  {
+    "id": 4183073,
+    "consumerUserId": 394386,
+    "invoiceAccount": {
+      "id": 8508243,
+      "code": "0503013595",
+      "name": "КОЧЕТКОВА Л.В.",
+      "legalEntityType": {
+        "id": 1,
+        "name": "Фізична"
+      },
+      "service": {
+        "id": 14,
+        "name": "Централізоване водовідведення (ГВ)",
+        "code": "24",
+        "serviceType": {
+          "id": 15,
+          "name": "Гаряча вода"
+        }
+      },
+      "address": {
+        "city": {
+          "id": 11530,
+          "name": "КИЇВ",
+          "fullName": "кр. Україна, Київська обл., м. КИЇВ",
+          "type": {
+            "id": 4,
+            "name": "Місто"
+          },
+          "prefix": "м.",
+          "postfix": "",
+          "prefixNamePostfix": "м. КИЇВ"
+        },
+        "street": {
+          "id": 57510674,
+          "name": "Героїв полку \"Азов\"",
+          "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\"",
+          "type": {
+            "id": 6,
+            "name": "Вулиця"
+          },
+          "prefix": "вул.",
+          "postfix": "",
+          "prefixNamePostfix": "вул. Героїв полку \"Азов\""
+        },
+        "building": {
+          "id": 57517730,
+          "name": "13",
+          "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13",
+          "type": {
+            "id": 7,
+            "name": "Будинок"
+          },
+          "prefix": "буд.",
+          "postfix": "",
+          "prefixNamePostfix": "буд. 13"
+        },
+        "flat": {
+          "id": 276081345,
+          "name": "59",
+          "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59",
+          "type": {
+            "id": 9,
+            "name": "Квартира"
+          },
+          "prefix": "кв.",
+          "postfix": "",
+          "prefixNamePostfix": "кв. 59"
+        }
+      },
+      "route": null,
+      "constrictAddress": {
+        "id": 276081345,
+        "name": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)",
+      "invoicePeriod": null
+    },
+    "apartmentDetail": {
+      "calcArea": 0,
+      "heatArea": 43,
+      "personalCount": 4,
+      "realPersonalCount": 4
+    }
+  },
+  {
+    "id": 4183074,
+    "consumerUserId": 394386,
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595",
+      "name": "КОЧЕТКОВА Л.В.",
+      "legalEntityType": {
+        "id": 1,
+        "name": "Фізична"
+      },
+      "service": {
+        "id": 19,
+        "name": "Плата за абонентське обслуговування",
+        "code": "35",
+        "serviceType": {
+          "id": 11,
+          "name": "Абонплата"
+        }
+      },
+      "address": {
+        "city": {
+          "id": 11530,
+          "name": "КИЇВ",
+          "fullName": "кр. Україна, Київська обл., м. КИЇВ",
+          "type": {
+            "id": 4,
+            "name": "Місто"
+          },
+          "prefix": "м.",
+          "postfix": "",
+          "prefixNamePostfix": "м. КИЇВ"
+        },
+        "street": {
+          "id": 57510674,
+          "name": "Героїв полку \"Азов\"",
+          "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\"",
+          "type": {
+            "id": 6,
+            "name": "Вулиця"
+          },
+          "prefix": "вул.",
+          "postfix": "",
+          "prefixNamePostfix": "вул. Героїв полку \"Азов\""
+        },
+        "building": {
+          "id": 57517730,
+          "name": "13",
+          "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13",
+          "type": {
+            "id": 7,
+            "name": "Будинок"
+          },
+          "prefix": "буд.",
+          "postfix": "",
+          "prefixNamePostfix": "буд. 13"
+        },
+        "flat": {
+          "id": 276081345,
+          "name": "59",
+          "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59",
+          "type": {
+            "id": 9,
+            "name": "Квартира"
+          },
+          "prefix": "кв.",
+          "postfix": "",
+          "prefixNamePostfix": "кв. 59"
+        }
+      },
+      "route": null,
+      "constrictAddress": {
+        "id": 276081345,
+        "name": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)",
+      "invoicePeriod": null
+    },
+    "apartmentDetail": {
+      "calcArea": 0,
+      "heatArea": 43,
+      "personalCount": 4,
+      "realPersonalCount": 4
+    }
+  }
+]
+---
+ENTRY 33 https://my.vodokanal.kiev.ua/api/warehouse/consumer/payments/history
+  REQ POST
+{"from":"2025-07-31T21:00:00.000Z","to":"2026-05-31T20:59:59.999Z","serviceProviderId":11}
+  RES 200 
+  JSON type list len 19
+[
+  {
+    "id": 975992241,
+    "bankCode": "0",
+    "payment": {
+      "id": 975992241,
+      "date": "2025-08-27T15:22:19.857+00:00",
+      "statusId": 1,
+      "externalTran": "686260461001",
+      "amount": 564.05,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2736374824,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2025-08-27T15:22:19.880+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 975992242,
+    "bankCode": "0",
+    "payment": {
+      "id": 975992242,
+      "date": "2025-08-27T15:22:20.110+00:00",
+      "statusId": 1,
+      "externalTran": "686260460301",
+      "amount": 28.44,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2736374830,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2025-08-27T15:22:20.127+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508243,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 979504152,
+    "bankCode": "0",
+    "payment": {
+      "id": 979504152,
+      "date": "2025-09-30T09:24:49.077+00:00",
+      "statusId": 1,
+      "externalTran": "696070963201",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2742894928,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2025-09-30T09:24:49.167+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 982819792,
+    "bankCode": "0",
+    "payment": {
+      "id": 982819792,
+      "date": "2025-10-28T20:23:32.710+00:00",
+      "statusId": 1,
+      "externalTran": "705415952301",
+      "amount": 121.54,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2751050839,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2025-10-28T20:23:32.720+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 982819793,
+    "bankCode": "0",
+    "payment": {
+      "id": 982819793,
+      "date": "2025-10-28T20:23:32.910+00:00",
+      "statusId": 1,
+      "externalTran": "705415952801",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2751577051,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2025-10-28T20:23:32.923+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 982819794,
+    "bankCode": "0",
+    "payment": {
+      "id": 982819794,
+      "date": "2025-10-28T20:23:33.117+00:00",
+      "statusId": 1,
+      "externalTran": "705415952101",
+      "amount": 14.22,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2751050845,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2025-10-28T20:23:33.127+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508243,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 985472348,
+    "bankCode": "0",
+    "payment": {
+      "id": 985472348,
+      "date": "2025-11-21T20:30:09.630+00:00",
+      "statusId": 1,
+      "externalTran": "713891140201",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2757365956,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2025-11-21T20:30:09.643+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 985472349,
+    "bankCode": "0",
+    "payment": {
+      "id": 985472349,
+      "date": "2025-11-21T20:30:09.830+00:00",
+      "statusId": 1,
+      "externalTran": "713891140101",
+      "amount": 60.77,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2756839651,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2025-11-21T20:30:09.843+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 985472350,
+    "bankCode": "0",
+    "payment": {
+      "id": 985472
+---
+ENTRY 36 https://my.vodokanal.kiev.ua/api/warehouse/consumer/counter/11890342/last-factors
+  RES 200 
+  JSON type dict len 21
+{
+  "id": 11890342,
+  "counterCode": "99900000809453",
+  "counterNumber": "16998084",
+  "service": {
+    "id": 10,
+    "name": "Централізоване водопостачання та водовідведення",
+    "code": "2",
+    "serviceType": {
+      "id": 16,
+      "name": "Водопостачання та водовідведення"
+    }
+  },
+  "serviceProvider": {
+    "id": 11,
+    "code": "999",
+    "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+  },
+  "dateFrom": "2026-04-28T13:21:14Z",
+  "dateTo": null,
+  "checkDate": "2025-12-29T00:00:00Z",
+  "nextCheckDate": "2029-12-29T00:00:00Z",
+  "model": {
+    "name": "1.5"
+  },
+  "counterStatus": {
+    "id": 3,
+    "name": "Прилад обліку наявний та працює"
+  },
+  "counterType": {
+    "id": 2,
+    "code": "000000002",
+    "name": "Холодна вода"
+  },
+  "factorInputSource": {
+    "id": 4,
+    "name": "Розрахунковий"
+  },
+  "installationLocation": {
+    "id": null,
+    "name": null
+  },
+  "invoiceAccount": {
+    "id": 8508236,
+    "code": "0503013595",
+    "name": "КОЧЕТКОВА Л.В.",
+    "legalEntityType": {
+      "id": 1,
+      "name": "Фізична"
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "address": {
+      "city": {
+        "id": 11530,
+        "name": "КИЇВ",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ",
+        "type": {
+          "id": 4,
+          "name": "Місто"
+        },
+        "prefix": "м.",
+        "postfix": "",
+        "prefixNamePostfix": "м. КИЇВ"
+      },
+      "street": {
+        "id": 57510674,
+        "name": "Героїв полку \"Азов\"",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\"",
+        "type": {
+          "id": 6,
+          "name": "Вулиця"
+        },
+        "prefix": "вул.",
+        "postfix": "",
+        "prefixNamePostfix": "вул. Героїв полку \"Азов\""
+      },
+      "building": {
+        "id": 57517730,
+        "name": "13",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13",
+        "type": {
+          "id": 7,
+          "name": "Будинок"
+        },
+        "prefix": "буд.",
+        "postfix": "",
+        "prefixNamePostfix": "буд. 13"
+      },
+      "flat": {
+        "id": 276081345,
+        "name": "59",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59",
+        "type": {
+          "id": 9,
+          "name": "Квартира"
+        },
+        "prefix": "кв.",
+        "postfix": "",
+        "prefixNamePostfix": "кв. 59"
+      }
+    },
+    "route": null,
+    "constrictAddress": {
+      "id": 276081345,
+      "name": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59"
+    }
+  },
+  "factorEditing": {
+    "isEnabled": true,
+    "startDay": 1,
+    "endDay": 5
+  },
+  "position": null,
+  "factors": [
+    {
+      "invoicePeriod": "2026-04-01T00:00:00Z",
+      "beginFactor": 216.0,
+      "endFactor": 216.0,
+      "difference": 0.0,
+      "factorType": null
+    }
+  ],
+  "contragents": null,
+  "departments": null,
+  "authorInfo": {
+    "dc": "2026-04-30T20:59:59Z",
+    "uc": 314793
+  }
+}
+---
+ENTRY 40 https://my.vodokanal.kiev.ua/api/warehouse/consumer/counter/11754842/last-factors
+  RES 200 
+  JSON type dict len 21
+{
+  "id": 11754842,
+  "counterCode": "99900000809454",
+  "counterNumber": "18137423",
+  "service": {
+    "id": 14,
+    "name": "Централізоване водовідведення (ГВ)",
+    "code": "24",
+    "serviceType": {
+      "id": 15,
+      "name": "Гаряча вода"
+    }
+  },
+  "serviceProvider": {
+    "id": 11,
+    "code": "999",
+    "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+  },
+  "dateFrom": "2026-04-28T13:19:24Z",
+  "dateTo": null,
+  "checkDate": "2025-12-29T00:00:00Z",
+  "nextCheckDate": "2029-12-29T00:00:00Z",
+  "model": {
+    "name": "1.5"
+  },
+  "counterStatus": {
+    "id": 3,
+    "name": "Прилад обліку наявний та працює"
+  },
+  "counterType": {
+    "id": 3,
+    "code": "000000003",
+    "name": "Гаряча вода"
+  },
+  "factorInputSource": {
+    "id": 4,
+    "name": "Розрахунковий"
+  },
+  "installationLocation": {
+    "id": null,
+    "name": null
+  },
+  "invoiceAccount": {
+    "id": 8508243,
+    "code": "0503013595",
+    "name": "КОЧЕТКОВА Л.В.",
+    "legalEntityType": {
+      "id": 1,
+      "name": "Фізична"
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "address": {
+      "city": {
+        "id": 11530,
+        "name": "КИЇВ",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ",
+        "type": {
+          "id": 4,
+          "name": "Місто"
+        },
+        "prefix": "м.",
+        "postfix": "",
+        "prefixNamePostfix": "м. КИЇВ"
+      },
+      "street": {
+        "id": 57510674,
+        "name": "Героїв полку \"Азов\"",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\"",
+        "type": {
+          "id": 6,
+          "name": "Вулиця"
+        },
+        "prefix": "вул.",
+        "postfix": "",
+        "prefixNamePostfix": "вул. Героїв полку \"Азов\""
+      },
+      "building": {
+        "id": 57517730,
+        "name": "13",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13",
+        "type": {
+          "id": 7,
+          "name": "Будинок"
+        },
+        "prefix": "буд.",
+        "postfix": "",
+        "prefixNamePostfix": "буд. 13"
+      },
+      "flat": {
+        "id": 276081345,
+        "name": "59",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59",
+        "type": {
+          "id": 9,
+          "name": "Квартира"
+        },
+        "prefix": "кв.",
+        "postfix": "",
+        "prefixNamePostfix": "кв. 59"
+      }
+    },
+    "route": null,
+    "constrictAddress": {
+      "id": 276081345,
+      "name": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59"
+    }
+  },
+  "factorEditing": {
+    "isEnabled": true,
+    "startDay": 1,
+    "endDay": 5
+  },
+  "position": null,
+  "factors": [
+    {
+      "invoicePeriod": "2026-04-01T00:00:00Z",
+      "beginFactor": 44.0,
+      "endFactor": 44.0,
+      "difference": 0.0,
+      "factorType": null
+    }
+  ],
+  "contragents": null,
+  "departments": null,
+  "authorInfo": {
+    "dc": "2026-04-30T20:59:59Z",
+    "uc": 314793
+  }
+}
+---
+ENTRY 45 https://my.vodokanal.kiev.ua/api/warehouse/consumer/counter/factors/history
+  REQ POST
+{"counterId":11890342,"range":{"from":"2026-01-31T22:00:00.000Z","to":"2026-05-31T20:59:59.999Z"}}
+  RES 200 
+  JSON type list len 7
+[
+  {
+    "id": 472894495,
+    "counterId": 11890342,
+    "invoicePeriod": "2026-04-01T00:00:00Z",
+    "beginFactor": 215.0,
+    "endFactor": 216.0,
+    "difference": 1.0,
+    "factorType": null,
+    "factorInputSourceId": 1,
+    "factorInputSource": {
+      "id": 1,
+      "name": "Споживач"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-04-28T13:19:40.693Z",
+      "uc": 394386
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "counter": {
+      "id": 11890342,
+      "code": "99900000809453",
+      "counterNumber": "16998084",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 92875404,
+          "diameter": null,
+          "counterType": {
+            "id": 2,
+            "code": "000000002",
+            "name": "Холодна вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508236,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 10,
+              "name": "Централізоване водопостачання та водовідведення",
+              "code": "2",
+              "serviceType": {
+                "id": 16,
+                "name": "Водопостачання та водовідведення"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 471964083,
+    "counterId": 11890342,
+    "invoicePeriod": "2026-04-01T00:00:00Z",
+    "beginFactor": 212.0,
+    "endFactor": 215.0,
+    "difference": 3.0,
+    "factorType": null,
+    "factorInputSourceId": 1,
+    "factorInputSource": {
+      "id": 1,
+      "name": "Споживач"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-04-21T16:02:42.917Z",
+      "uc": 394386
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "counter": {
+      "id": 11890342,
+      "code": "99900000809453",
+      "counterNumber": "16998084",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 92875404,
+          "diameter": null,
+          "counterType": {
+            "id": 2,
+            "code": "000000002",
+            "name": "Холодна вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508236,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 10,
+              "name": "Централізоване водопостачання та водовідведення",
+              "code": "2",
+              "serviceType": {
+                "id": 16,
+                "name": "Водопостачання та водовідведення"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 466342427,
+    "counterId": 11890342,
+    "invoicePeriod": "2026-04-01T00:00:00Z",
+    "beginFactor": 204.0,
+    "endFactor": 212.0,
+    "difference": 8.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-04-03T06:50:14.113Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "counter": {
+      "id": 11890342,
+      "code": "99900000809453",
+      "counterNumber": "16998084",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 92875404,
+          "diameter": null,
+          "counterType": {
+            "id": 2,
+            "code": "000000002",
+            "name": "Холодна вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508236,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 10,
+              "name": "Централізоване водопостачання та водовідведення",
+              "code": "2",
+              "serviceType": {
+                "id": 16,
+                "name": "Водопостачання та водовідведення"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 462993201,
+    "counterId": 11890342,
+    "invoicePeriod": "2026-03-01T00:00:00Z",
+    "beginFactor": 204.0,
+    "endFactor": 204.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-03-12T18:31:41.147Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "counter": {
+      "id": 11890342,
+      "code": "99900000809453",
+      "counterNumber": "16998084",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185694,
+          "diameter": null,
+          "counterType": {
+            "id": 2,
+            "code": "000000002",
+            "name": "Холодна вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508236,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 10,
+              "name": "Централізоване водопостачання та водовідведення",
+              "code": "2",
+              "serviceType": {
+                "id": 16,
+                "name": "Водопостачання та водовідведення"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 457233941,
+    "counterId": 11890342,
+    "invoicePeriod": "2026-02-01T00:00:00Z",
+    "beginFactor": 204.0,
+    "endFactor": 204.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 1,
+    "factorInputSource": {
+      "id": 1,
+      "name": "Споживач"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-02-27T11:39:49.687Z",
+      "uc": 394386
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "counter": {
+      "id": 11890342,
+      "code": "99900000809453",
+      "counterNumber": "16998084",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 88164255,
+          "diameter":
+---
+ENTRY 46 https://my.vodokanal.kiev.ua/api/warehouse/consumer/counter/factors/history
+  REQ POST
+{"counterId":11754842,"range":{"from":"2026-01-31T22:00:00.000Z","to":"2026-05-31T20:59:59.999Z"}}
+  RES 200 
+  JSON type list len 4
+[
+  {
+    "id": 471965022,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-04-01T00:00:00Z",
+    "beginFactor": 44.0,
+    "endFactor": 44.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-04-21T16:10:16.773Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 466342432,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-04-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 44.0,
+    "difference": 2.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-04-03T06:50:14.213Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 468014928,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-03-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 4,
+    "factorInputSource": {
+      "id": 4,
+      "name": "Розрахунковий"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-03-31T20:59:59Z",
+      "uc": 314793
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 457233263,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-02-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 1,
+    "factorInputSource": {
+      "id": 1,
+      "name": "Споживач"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-02-27T11:38:31.967Z",
+      "uc": 394386
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 88193409,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  }
+]
+---
+ENTRY 47 https://my.vodokanal.kiev.ua/api/warehouse/consumer/payments/finance/partners
+  RES 200 
+  JSON type list len 1
+[
+  {
+    "id": 21,
+    "code": "325",
+    "name": "ГЕРЦ"
+  }
+]
+---
+ENTRY 48 https://my.vodokanal.kiev.ua/api/cms/public/content/page-parts/warning_for_payments_history_page
+  RES 200 
+  JSON type dict len 2
+{
+  "identifier": "WARNING_FOR_PAYMENTS_HISTORY_PAGE",
+  "format": "html"
+}
+---
+ENTRY 49 https://my.vodokanal.kiev.ua/api/warehouse/consumer/payments/history
+  REQ POST
+{"serviceProviderGroupIds":[22],"serviceProviderCode":"999","invoiceAccountCode":"0503013595","financePointId":"","from":"2026-03-11T22:00:00.000Z","to":"2026-05-31T20:59:59.999Z"}
+  RES 200 
+  JSON type list len 3
+[
+  {
+    "id": 997321169,
+    "bankCode": "0",
+    "payment": {
+      "id": 997321169,
+      "date": "2026-03-12T18:31:56.113+00:00",
+      "statusId": 1,
+      "externalTran": "749986780601",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2786100772,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2026-03-12T18:31:56.127+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 997321170,
+    "bankCode": "0",
+    "payment": {
+      "id": 997321170,
+      "date": "2026-03-12T18:31:56.340+00:00",
+      "statusId": 1,
+      "externalTran": "749986780401",
+      "amount": 212.69,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2785574476,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2026-03-12T18:31:56.353+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 1001274715,
+    "bankCode": "0",
+    "payment": {
+      "id": 1001274715,
+      "date": "2026-04-18T08:32:57.013+00:00",
+      "statusId": 1,
+      "externalTran": "763114939401",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2793176470,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "uc": 24,
+      "dc": "2026-04-18T08:32:57.030+00:00"
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  }
+]
+---
+ENTRY 50 https://analytics.google.com/g/collect?v=2&tid=G-2D1NBZ3D14&gtm=45je6562v9106738040za200zd9106738040&_p=1778438704771&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQ&ae=a&are=1&cid=243761059.1763751877&frm=0&pscdl=noapi&rcb=15&sr=1600x1000&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.138%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.138&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=uk-ua&gaf=2&_s=1&tag_exp=0~115616986~115938465~115938469~118128922~118463261&dl=https%3A%2F%2Fmy.vodokanal.kiev.ua%2Fdashboard%2Fpayments%3FserviceProviderCode%3D999%26invoiceAccountCode%3D0503013595%26dateFrom%3D2026-03-11T22%3A00%3A00.000Z&dr=https%3A%2F%2Fmy.vodokanal.kiev.ua%2Fdashboard%2Fhome&sid=1778437526&sct=23&seg=1&dt=%D0%97%D0%B4%D1%96%D0%B9%D1%81%D0%BD%D0%B5%D0%BD%D1%96%20%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D1%96&en=page_view&_c=1&ep.environment=prod&_et=6676&tfd=12880
+  RES 204 
+---
+ENTRY 52 https://my.vodokanal.kiev.ua/api/warehouse/consumer/invoice/amount_to_pay?serviceProviderCode=999&code=0503013595
+  RES 200 
+  JSON type dict len 3
+{
+  "debt": 47.52,
+  "billAmount": 440.57,
+  "amountToPay": 440.57
+}
+---
+ENTRY 53 https://my.vodokanal.kiev.ua/api/warehouse/consumer/payments/history
+  REQ POST
+{"from":"2026-01-31T22:00:00.000Z","to":"2026-05-31T20:59:59.999Z","serviceProviderId":11}
+  RES 200 
+  JSON type list len 5
+[
+  {
+    "id": 994026722,
+    "bankCode": "0",
+    "payment": {
+      "id": 994026722,
+      "date": "2026-02-11T19:24:27.230+00:00",
+      "statusId": 1,
+      "externalTran": "739686200701",
+      "amount": 212.69,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2778667497,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "dc": "2026-02-11T19:24:27.247+00:00",
+      "uc": 24
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 994026723,
+    "bankCode": "0",
+    "payment": {
+      "id": 994026723,
+      "date": "2026-02-11T19:24:27.460+00:00",
+      "statusId": 1,
+      "externalTran": "739686200201",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2779193846,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "dc": "2026-02-11T19:24:27.473+00:00",
+      "uc": 24
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 997321169,
+    "bankCode": "0",
+    "payment": {
+      "id": 997321169,
+      "date": "2026-03-12T18:31:56.113+00:00",
+      "statusId": 1,
+      "externalTran": "749986780601",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2786100772,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "dc": "2026-03-12T18:31:56.127+00:00",
+      "uc": 24
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 997321170,
+    "bankCode": "0",
+    "payment": {
+      "id": 997321170,
+      "date": "2026-03-12T18:31:56.340+00:00",
+      "statusId": 1,
+      "externalTran": "749986780401",
+      "amount": 212.69,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2785574476,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "dc": "2026-03-12T18:31:56.353+00:00",
+      "uc": 24
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 1001274715,
+    "bankCode": "0",
+    "payment": {
+      "id": 1001274715,
+      "date": "2026-04-18T08:32:57.013+00:00",
+      "statusId": 1,
+      "externalTran": "763114939401",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2793176470,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "dc": "2026-04-18T08:32:57.030+00:00",
+      "uc": 24
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  }
+]
+---
+ENTRY 54 https://my.vodokanal.kiev.ua/api/warehouse/consumer/counters?serviceProviderCode=999&invoiceAccountCode=0503013595
+  RES 200 
+  JSON type list len 2
+[
+  {
+    "id": 11890342,
+    "code": "99900000809453",
+    "number": "16998084",
+    "installationPlace": null,
+    "checkDate": "2025-12-29T00:00:00Z",
+    "nextCheckDate": "2029-12-29T00:00:00Z",
+    "counterType": {
+      "id": 2,
+      "code": "000000002",
+      "name": "Холодна вода"
+    },
+    "counterStatus": {
+      "id": 3,
+      "name": "Прилад обліку наявний та працює"
+    },
+    "beginFactor": null,
+    "endFactor": null,
+    "address": null,
+    "contragent": null,
+    "department": null
+  },
+  {
+    "id": 11754842,
+    "code": "99900000809454",
+    "number": "18137423",
+    "installationPlace": null,
+    "checkDate": "2025-12-29T00:00:00Z",
+    "nextCheckDate": "2029-12-29T00:00:00Z",
+    "counterType": {
+      "id": 3,
+      "code": "000000003",
+      "name": "Гаряча вода"
+    },
+    "counterStatus": {
+      "id": 3,
+      "name": "Прилад обліку наявний та працює"
+    },
+    "beginFactor": null,
+    "endFactor": null,
+    "address": null,
+    "contragent": null,
+    "department": null
+  }
+]
+---
+ENTRY 55 https://my.vodokanal.kiev.ua/api/warehouse/consumer/counter/factors/history
+  REQ POST
+{"invoiceAccountCode":"0503013595","serviceProviderCode":"999","range":{"from":"2025-04-30T21:00:00.000Z","to":"2026-05-31T20:59:59.999Z"}}
+  RES 200 
+  JSON type list len 44
+[
+  {
+    "id": 471965022,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-04-01T00:00:00Z",
+    "beginFactor": 44.0,
+    "endFactor": 44.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-04-21T16:10:16.773Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 466342432,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-04-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 44.0,
+    "difference": 2.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-04-03T06:50:14.213Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 468014928,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-03-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 4,
+    "factorInputSource": {
+      "id": 4,
+      "name": "Розрахунковий"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-03-31T20:59:59Z",
+      "uc": 314793
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 457233263,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-02-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 1,
+    "factorInputSource": {
+      "id": 1,
+      "name": "Споживач"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-02-27T11:38:31.967Z",
+      "uc": 394386
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 88193409,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 448060929,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-01-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-01-17T15:27:44.493Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 84959879,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+         
+---
+ENTRY 56 https://my.vodokanal.kiev.ua/api/warehouse/consumer/counter/factors/history
+  REQ POST
+{"invoiceAccountCode":"0503013595","serviceProviderCode":"999","range":{"from":"2025-04-30T21:00:00.000Z","to":"2026-05-31T20:59:59.999Z"}}
+  RES 200 
+  JSON type list len 44
+[
+  {
+    "id": 471965022,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-04-01T00:00:00Z",
+    "beginFactor": 44.0,
+    "endFactor": 44.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-04-21T16:10:16.773Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 466342432,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-04-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 44.0,
+    "difference": 2.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-04-03T06:50:14.213Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 468014928,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-03-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 4,
+    "factorInputSource": {
+      "id": 4,
+      "name": "Розрахунковий"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-03-31T20:59:59Z",
+      "uc": 314793
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 91185595,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 457233263,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-02-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 1,
+    "factorInputSource": {
+      "id": 1,
+      "name": "Споживач"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-02-27T11:38:31.967Z",
+      "uc": 394386
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 88193409,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+            "code": "0503013595",
+            "name": "КОЧЕТКОВА Л.В.",
+            "legalEntityType": null,
+            "service": {
+              "id": 14,
+              "name": "Централізоване водовідведення (ГВ)",
+              "code": "24",
+              "serviceType": {
+                "id": 15,
+                "name": "Гаряча вода"
+              }
+            },
+            "address": null,
+            "route": null,
+            "constrictAddress": null
+          }
+        }
+      ]
+    },
+    "position": null
+  },
+  {
+    "id": 448060929,
+    "counterId": 11754842,
+    "invoicePeriod": "2026-01-01T00:00:00Z",
+    "beginFactor": 42.0,
+    "endFactor": 42.0,
+    "difference": 0.0,
+    "factorType": null,
+    "factorInputSourceId": 5,
+    "factorInputSource": {
+      "id": 5,
+      "name": "Банк"
+    },
+    "fileId": null,
+    "authorInfo": {
+      "dc": "2026-01-17T15:27:44.493Z",
+      "uc": 24
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "counter": {
+      "id": 11754842,
+      "code": "99900000809454",
+      "counterNumber": "18137423",
+      "checkDate": "2025-12-29T00:00:00Z",
+      "nextCheckDate": "2029-12-29T00:00:00Z",
+      "counterDetail": [
+        {
+          "id": 84959879,
+          "diameter": null,
+          "counterType": {
+            "id": 3,
+            "code": "000000003",
+            "name": "Гаряча вода"
+          },
+          "counterStatus": {
+            "id": 3,
+            "name": "Прилад обліку наявний та працює"
+          },
+          "invoiceAccount": {
+            "id": 8508243,
+         
+---
+ENTRY 57 https://my.vodokanal.kiev.ua/api/warehouse/consumer/tariff?serviceProviderCode=999&invoiceAccountCode=0503013595
+  RES 200 
+  JSON type list len 4
+[
+  {
+    "invoiceId": 2793176470,
+    "billingDate": "2026-04-01T00:00:00Z",
+    "tariffAmount": 47.52,
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595",
+      "name": "КОЧЕТКОВА Л.В."
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "subService": null,
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "authorInfo": {
+      "dc": "2026-05-06T19:16:58.120Z",
+      "uc": 314793
+    }
+  },
+  {
+    "invoiceId": 2792650263,
+    "billingDate": "2026-04-01T00:00:00Z",
+    "tariffAmount": 14.22,
+    "invoiceAccount": {
+      "id": 8508243,
+      "code": "0503013595",
+      "name": "КОЧЕТКОВА Л.В."
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "subService": {
+      "id": 15,
+      "code": "15",
+      "name": "Централізоване водовідведення (ГВ)"
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "authorInfo": {
+      "dc": "2026-05-06T19:09:02.287Z",
+      "uc": 314793
+    }
+  },
+  {
+    "invoiceId": 2792650257,
+    "billingDate": "2026-04-01T00:00:00Z",
+    "tariffAmount": 16.164,
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595",
+      "name": "КОЧЕТКОВА Л.В."
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "subService": {
+      "id": 12,
+      "code": "12",
+      "name": "Централізоване водопостачання (ХВ)"
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "authorInfo": {
+      "dc": "2026-05-06T19:09:02.287Z",
+      "uc": 314793
+    }
+  },
+  {
+    "invoiceId": 2792650257,
+    "billingDate": "2026-04-01T00:00:00Z",
+    "tariffAmount": 14.22,
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595",
+      "name": "КОЧЕТКОВА Л.В."
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "subService": {
+      "id": 11,
+      "code": "11",
+      "name": "Централізоване водовідведення (ГВ) (ХВ)"
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "authorInfo": {
+      "dc": "2026-05-06T19:09:18.490Z",
+      "uc": 314793
+    }
+  }
+]
+---
+ENTRY 58 https://my.vodokanal.kiev.ua/api/warehouse/consumer/payments/history
+  REQ POST
+{"from":"2025-07-31T21:00:00.000Z","to":"2026-05-31T20:59:59.999Z","serviceProviderId":11}
+  RES 200 
+  JSON type list len 19
+[
+  {
+    "id": 975992241,
+    "bankCode": "0",
+    "payment": {
+      "id": 975992241,
+      "date": "2025-08-27T15:22:19.857+00:00",
+      "statusId": 1,
+      "externalTran": "686260461001",
+      "amount": 564.05,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2736374824,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "dc": "2025-08-27T15:22:19.880+00:00",
+      "uc": 24
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 975992242,
+    "bankCode": "0",
+    "payment": {
+      "id": 975992242,
+      "date": "2025-08-27T15:22:20.110+00:00",
+      "statusId": 1,
+      "externalTran": "686260460301",
+      "amount": 28.44,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2736374830,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "dc": "2025-08-27T15:22:20.127+00:00",
+      "uc": 24
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508243,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 979504152,
+    "bankCode": "0",
+    "payment": {
+      "id": 979504152,
+      "date": "2025-09-30T09:24:49.077+00:00",
+      "statusId": 1,
+      "externalTran": "696070963201",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2742894928,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "dc": "2025-09-30T09:24:49.167+00:00",
+      "uc": 24
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 982819792,
+    "bankCode": "0",
+    "payment": {
+      "id": 982819792,
+      "date": "2025-10-28T20:23:32.710+00:00",
+      "statusId": 1,
+      "externalTran": "705415952301",
+      "amount": 121.54,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2751050839,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "dc": "2025-10-28T20:23:32.720+00:00",
+      "uc": 24
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 982819793,
+    "bankCode": "0",
+    "payment": {
+      "id": 982819793,
+      "date": "2025-10-28T20:23:32.910+00:00",
+      "statusId": 1,
+      "externalTran": "705415952801",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2751577051,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "dc": "2025-10-28T20:23:32.923+00:00",
+      "uc": 24
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 982819794,
+    "bankCode": "0",
+    "payment": {
+      "id": 982819794,
+      "date": "2025-10-28T20:23:33.117+00:00",
+      "statusId": 1,
+      "externalTran": "705415952101",
+      "amount": 14.22,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2751050845,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "dc": "2025-10-28T20:23:33.127+00:00",
+      "uc": 24
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508243,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 985472348,
+    "bankCode": "0",
+    "payment": {
+      "id": 985472348,
+      "date": "2025-11-21T20:30:09.630+00:00",
+      "statusId": 1,
+      "externalTran": "713891140201",
+      "amount": 47.52,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2757365956,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "dc": "2025-11-21T20:30:09.643+00:00",
+      "uc": 24
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 19,
+      "name": "Плата за абонентське обслуговування",
+      "code": "35",
+      "serviceType": {
+        "id": 11,
+        "name": "Абонплата"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 22895740,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 985472349,
+    "bankCode": "0",
+    "payment": {
+      "id": 985472349,
+      "date": "2025-11-21T20:30:09.830+00:00",
+      "statusId": 1,
+      "externalTran": "713891140101",
+      "amount": 60.77,
+      "cardPattern": null,
+      "sumCommiss": 0.0,
+      "invoiceId": 2756839651,
+      "internalTran": null,
+      "consumerUserId": 394386,
+      "dc": "2025-11-21T20:30:09.843+00:00",
+      "uc": 24
+    },
+    "financePoint": {
+      "id": 21,
+      "name": "ГЕРЦ",
+      "financePointCode": "325",
+      "financeUserId": 24,
+      "operationPointId": 10007
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "serviceProvider": {
+      "id": 11,
+      "code": "999",
+      "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+    },
+    "invoiceAccount": {
+      "id": 8508236,
+      "code": "0503013595"
+    }
+  },
+  {
+    "id": 985472350,
+    "bankCode": "0",
+    "payment": {
+      "id": 985472
+---
+ENTRY 59 https://my.vodokanal.kiev.ua/api/warehouse/consumer/counter/11890342/last-factors
+  RES 200 
+  JSON type dict len 21
+{
+  "id": 11890342,
+  "counterCode": "99900000809453",
+  "counterNumber": "16998084",
+  "service": {
+    "id": 10,
+    "name": "Централізоване водопостачання та водовідведення",
+    "code": "2",
+    "serviceType": {
+      "id": 16,
+      "name": "Водопостачання та водовідведення"
+    }
+  },
+  "serviceProvider": {
+    "id": 11,
+    "code": "999",
+    "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+  },
+  "dateFrom": "2026-04-28T13:21:14Z",
+  "dateTo": null,
+  "checkDate": "2025-12-29T00:00:00Z",
+  "nextCheckDate": "2029-12-29T00:00:00Z",
+  "model": {
+    "name": "1.5"
+  },
+  "counterStatus": {
+    "id": 3,
+    "name": "Прилад обліку наявний та працює"
+  },
+  "counterType": {
+    "id": 2,
+    "code": "000000002",
+    "name": "Холодна вода"
+  },
+  "factorInputSource": {
+    "id": 4,
+    "name": "Розрахунковий"
+  },
+  "installationLocation": {
+    "id": null,
+    "name": null
+  },
+  "invoiceAccount": {
+    "id": 8508236,
+    "code": "0503013595",
+    "name": "КОЧЕТКОВА Л.В.",
+    "legalEntityType": {
+      "id": 1,
+      "name": "Фізична"
+    },
+    "service": {
+      "id": 10,
+      "name": "Централізоване водопостачання та водовідведення",
+      "code": "2",
+      "serviceType": {
+        "id": 16,
+        "name": "Водопостачання та водовідведення"
+      }
+    },
+    "address": {
+      "city": {
+        "id": 11530,
+        "name": "КИЇВ",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ",
+        "type": {
+          "id": 4,
+          "name": "Місто"
+        },
+        "prefix": "м.",
+        "postfix": "",
+        "prefixNamePostfix": "м. КИЇВ"
+      },
+      "street": {
+        "id": 57510674,
+        "name": "Героїв полку \"Азов\"",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\"",
+        "type": {
+          "id": 6,
+          "name": "Вулиця"
+        },
+        "prefix": "вул.",
+        "postfix": "",
+        "prefixNamePostfix": "вул. Героїв полку \"Азов\""
+      },
+      "building": {
+        "id": 57517730,
+        "name": "13",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13",
+        "type": {
+          "id": 7,
+          "name": "Будинок"
+        },
+        "prefix": "буд.",
+        "postfix": "",
+        "prefixNamePostfix": "буд. 13"
+      },
+      "flat": {
+        "id": 276081345,
+        "name": "59",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59",
+        "type": {
+          "id": 9,
+          "name": "Квартира"
+        },
+        "prefix": "кв.",
+        "postfix": "",
+        "prefixNamePostfix": "кв. 59"
+      }
+    },
+    "route": null,
+    "constrictAddress": {
+      "id": 276081345,
+      "name": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59"
+    }
+  },
+  "factorEditing": {
+    "isEnabled": true,
+    "startDay": 1,
+    "endDay": 5
+  },
+  "position": null,
+  "factors": [
+    {
+      "invoicePeriod": "2026-04-01T00:00:00Z",
+      "beginFactor": 216.0,
+      "endFactor": 216.0,
+      "difference": 0.0,
+      "factorType": null
+    }
+  ],
+  "contragents": null,
+  "departments": null,
+  "authorInfo": {
+    "dc": "2026-04-30T20:59:59Z",
+    "uc": 314793
+  }
+}
+---
+ENTRY 60 https://my.vodokanal.kiev.ua/api/warehouse/consumer/counter/11754842/last-factors
+  RES 200 
+  JSON type dict len 21
+{
+  "id": 11754842,
+  "counterCode": "99900000809454",
+  "counterNumber": "18137423",
+  "service": {
+    "id": 14,
+    "name": "Централізоване водовідведення (ГВ)",
+    "code": "24",
+    "serviceType": {
+      "id": 15,
+      "name": "Гаряча вода"
+    }
+  },
+  "serviceProvider": {
+    "id": 11,
+    "code": "999",
+    "name": "ПрАТ \"АК \"Київводоканал\" (ЦКС)"
+  },
+  "dateFrom": "2026-04-28T13:19:24Z",
+  "dateTo": null,
+  "checkDate": "2025-12-29T00:00:00Z",
+  "nextCheckDate": "2029-12-29T00:00:00Z",
+  "model": {
+    "name": "1.5"
+  },
+  "counterStatus": {
+    "id": 3,
+    "name": "Прилад обліку наявний та працює"
+  },
+  "counterType": {
+    "id": 3,
+    "code": "000000003",
+    "name": "Гаряча вода"
+  },
+  "factorInputSource": {
+    "id": 4,
+    "name": "Розрахунковий"
+  },
+  "installationLocation": {
+    "id": null,
+    "name": null
+  },
+  "invoiceAccount": {
+    "id": 8508243,
+    "code": "0503013595",
+    "name": "КОЧЕТКОВА Л.В.",
+    "legalEntityType": {
+      "id": 1,
+      "name": "Фізична"
+    },
+    "service": {
+      "id": 14,
+      "name": "Централізоване водовідведення (ГВ)",
+      "code": "24",
+      "serviceType": {
+        "id": 15,
+        "name": "Гаряча вода"
+      }
+    },
+    "address": {
+      "city": {
+        "id": 11530,
+        "name": "КИЇВ",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ",
+        "type": {
+          "id": 4,
+          "name": "Місто"
+        },
+        "prefix": "м.",
+        "postfix": "",
+        "prefixNamePostfix": "м. КИЇВ"
+      },
+      "street": {
+        "id": 57510674,
+        "name": "Героїв полку \"Азов\"",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\"",
+        "type": {
+          "id": 6,
+          "name": "Вулиця"
+        },
+        "prefix": "вул.",
+        "postfix": "",
+        "prefixNamePostfix": "вул. Героїв полку \"Азов\""
+      },
+      "building": {
+        "id": 57517730,
+        "name": "13",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13",
+        "type": {
+          "id": 7,
+          "name": "Будинок"
+        },
+        "prefix": "буд.",
+        "postfix": "",
+        "prefixNamePostfix": "буд. 13"
+      },
+      "flat": {
+        "id": 276081345,
+        "name": "59",
+        "fullName": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59",
+        "type": {
+          "id": 9,
+          "name": "Квартира"
+        },
+        "prefix": "кв.",
+        "postfix": "",
+        "prefixNamePostfix": "кв. 59"
+      }
+    },
+    "route": null,
+    "constrictAddress": {
+      "id": 276081345,
+      "name": "кр. Україна, Київська обл., м. КИЇВ, вул. Героїв полку \"Азов\", буд. 13, кв. 59"
+    }
+  },
+  "factorEditing": {
+    "isEnabled": true,
+    "startDay": 1,
+    "endDay": 5
+  },
+  "position": null,
+  "factors": [
+    {
+      "invoicePeriod": "2026-04-01T00:00:00Z",
+      "beginFactor": 44.0,
+      "endFactor": 44.0,
+      "difference": 0.0,
+      "factorType": null
+    }
+  ],
+  "contragents": null,
+  "departments": null,
+  "authorInfo": {
+    "dc": "2026-04-30T20:59:59Z",
+    "uc": 314793
+  }
+}
+---
+ENTRY 61 https://analytics.google.com/g/collect?v=2&tid=G-2D1NBZ3D14&gtm=45je6562v9106738040za200zd9106738040&_p=1778438704771&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQ&ae=a&are=1&cid=243761059.1763751877&frm=0&pscdl=noapi&rcb=15&sr=1600x1000&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.138%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.138&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=uk-ua&gaf=2&_s=2&tag_exp=0~115616986~115938465~115938469~118128922~118463261&dl=https%3A%2F%2Fmy.vodokanal.kiev.ua%2Fdashboard%2Fhome&dr=https%3A%2F%2Fmy.vodokanal.kiev.ua%2Fdashboard%2Fpayments%3FserviceProviderCode%3D999%26invoiceAccountCode%3D0503013595%26dateFrom%3D2026-03-11T22%3A00%3A00.000Z&sid=1778437526&sct=23&seg=1&dt=%D0%9E%D1%81%D0%BE%D0%B1%D0%B8%D1%81%D1%82%D0%B8%D0%B9%20%D0%BA%D0%B0%D0%B1%D1%96%D0%BD%D0%B5%D1%82&en=page_view&_c=1&ep.environment=prod&_et=2467&tfd=15350
+  RES 204 
+---

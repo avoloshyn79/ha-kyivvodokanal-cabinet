@@ -1,0 +1,11 @@
+{
+  "domain": "kyivvodokanal_cabinet",
+  "name": "Kyivvodokanal Cabinet",
+  "config_flow": true,
+  "documentation": "https://my.vodokanal.kiev.ua/",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "0.2.0",
+  "issue_tracker": "https://github.com/avoloshyn79/ha-kyivvodokanal-cabinet/issues",
+  "codeowners": ["@avoloshyn79"]
+}

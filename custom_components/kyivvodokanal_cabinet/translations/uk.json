@@ -1,0 +1,120 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Kyivvodokanal Cabinet",
+        "description": "Підключення за допомогою сесійного cookie.",
+        "data": {
+          "name": "Назва",
+          "cabinet_url": "URL API",
+          "cookie": "Сесійний cookie",
+          "auth_header": "Заголовок Authorization (необов'язково, наприклад, Bearer token)",
+          "scan_interval": "Інтервал оновлення (хвилини)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Не вдалося з'єднатися або розпізнати відповідь",
+      "auth": "Помилка автентифікації. Cookie/сесія недійсні або вхід відхилено."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Параметри Kyivvodokanal",
+        "data": {
+          "cookie": "Сесійний cookie",
+          "auth_header": "Заголовок Authorization (необов'язково, наприклад, Bearer token)",
+          "scan_interval": "Інтервал оновлення (хвилини)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "last_payment_date": {
+        "name": "Дата останньої оплати"
+      },
+      "last_transmission_date": {
+        "name": "Дата останньої передачі"
+      },
+      "hot_water_last_transmission_date": {
+        "name": "Дата останньої передачі гаряча вода"
+      },
+      "cold_water_last_transmission_date": {
+        "name": "Дата останньої передачі холодна вода"
+      },
+      "service_provider_name": {
+        "name": "Поставщик води"
+      },
+      "tariff_cold_water": {
+        "name": "Тариф холодна вода"
+      },
+      "tariff_sewerage": {
+        "name": "Тариф водовідведення"
+      },
+      "tariff_abone": {
+        "name": "Тариф абонплата"
+      },
+      "debt": {
+        "name": "Заборгованість"
+      },
+      "amount_to_pay": {
+        "name": "Сума до сплати"
+      },
+      "hot_water_counter_number": {
+        "name": "Номер лічильника гарячої води"
+      },
+      "hot_water_counter_check_date": {
+        "name": "Дата повірки гарячої води"
+      },
+      "hot_water_counter_next_check_date": {
+        "name": "Наступна повірка гарячої води"
+      },
+      "hot_water_last_reading": {
+        "name": "Останнє показання гарячої води"
+      },
+      "cold_water_counter_number": {
+        "name": "Номер лічильника холодної води"
+      },
+      "cold_water_counter_check_date": {
+        "name": "Дата повірки холодної води"
+      },
+      "cold_water_counter_next_check_date": {
+        "name": "Наступна повірка холодної води"
+      },
+      "cold_water_last_reading": {
+        "name": "Останнє показання холодної води"
+      }
+    },
+    "button": {
+      "update_data": {
+        "name": "Оновити дані"
+      }
+    },
+    "services": {
+      "update_data": {
+        "name": "Оновити дані",
+        "description": "Ручне оновлення даних з API Kyivvodokanal"
+      },
+      "submit_readings": {
+        "name": "Передати показання",
+        "description": "Передати показання лічильників до Kyivvodokanal",
+        "fields": {
+          "counter_id": {
+            "name": "ID лічильника",
+            "description": "ID лічильника для передачі показання"
+          },
+          "reading_value": {
+            "name": "Значення показання",
+            "description": "Значення показання лічильника для передачі"
+          },
+          "factor_type_code": {
+            "name": "Код типу фактора",
+            "description": "Код типу фактора (необов'язково, залиште порожнім якщо невідомо)"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Kyivvodokanal Cabinet",
+        "description": "Connect using session cookie.",
+        "data": {
+          "name": "Name",
+          "cabinet_url": "API base URL",
+          "cookie": "Session cookie",
+          "auth_header": "Authorization header (optional, e.g., Bearer token)",
+          "scan_interval": "Update interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect or parse response",
+      "auth": "Authentication failed. Cookie/session invalid or login was rejected."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Kyivvodokanal options",
+        "data": {
+          "cookie": "Session cookie",
+          "auth_header": "Authorization header (optional, e.g., Bearer token)",
+          "scan_interval": "Update interval (minutes)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "last_payment_date": {
+        "name": "Last Payment Date"
+      },
+      "last_transmission_date": {
+        "name": "Last Transmission Date"
+      },
+      "hot_water_last_transmission_date": {
+        "name": "Hot Water Last Transmission Date"
+      },
+      "cold_water_last_transmission_date": {
+        "name": "Cold Water Last Transmission Date"
+      },
+      "service_provider_name": {
+        "name": "Water Provider"
+      },
+      "tariff_cold_water": {
+        "name": "Tariff Cold Water"
+      },
+      "tariff_sewerage": {
+        "name": "Tariff Sewerage"
+      },
+      "tariff_abone": {
+        "name": "Tariff Abonement"
+      },
+      "debt": {
+        "name": "Debt"
+      },
+      "amount_to_pay": {
+        "name": "Amount to Pay"
+      },
+      "hot_water_counter_number": {
+        "name": "Hot Water Counter Number"
+      },
+      "hot_water_counter_check_date": {
+        "name": "Hot Water Counter Check Date"
+      },
+      "hot_water_counter_next_check_date": {
+        "name": "Hot Water Counter Next Check Date"
+      },
+      "hot_water_last_reading": {
+        "name": "Hot Water Last Reading"
+      },
+      "cold_water_counter_number": {
+        "name": "Cold Water Counter Number"
+      },
+      "cold_water_counter_check_date": {
+        "name": "Cold Water Counter Check Date"
+      },
+      "cold_water_counter_next_check_date": {
+        "name": "Cold Water Counter Next Check Date"
+      },
+      "cold_water_last_reading": {
+        "name": "Cold Water Last Reading"
+      }
+    },
+    "button": {
+      "update_data": {
+        "name": "Update Data"
+      }
+    },
+    "services": {
+      "update_data": {
+        "name": "Update data",
+        "description": "Manually update data from Kyivvodokanal API"
+      },
+      "submit_readings": {
+        "name": "Submit meter readings",
+        "description": "Submit meter readings to Kyivvodokanal",
+        "fields": {
+          "counter_id": {
+            "name": "Counter ID",
+            "description": "ID of the counter to submit reading for"
+          },
+          "reading_value": {
+            "name": "Reading value",
+            "description": "The meter reading value to submit"
+          },
+          "factor_type_code": {
+            "name": "Factor type code",
+            "description": "Factor type code (optional, leave empty if not known)"
+          }
+        }
+      }
+    }
+  }
+}

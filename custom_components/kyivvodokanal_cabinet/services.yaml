@@ -1,0 +1,29 @@
+update_data:
+  name: Update data
+  description: Manually update data from Kyivvodokanal API
+  fields: {}
+
+submit_readings:
+  name: Submit meter readings
+  description: Submit meter readings to Kyivvodokanal
+  fields:
+    counter_id:
+      name: Counter ID
+      description: ID of the counter to submit reading for
+      required: true
+      selector:
+        text:
+    reading_value:
+      name: Reading value
+      description: The meter reading value to submit
+      required: true
+      selector:
+        number:
+          min: 0
+          step: 0.001
+    factor_type_code:
+      name: Factor type code
+      description: Factor type code (optional, leave empty if not known)
+      required: false
+      selector:
+        text:
