@@ -30,7 +30,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     async def async_update_data(service_call: ServiceCall) -> None:
         """Update data from Kyivvodokanal API."""
         _LOGGER.debug("Manual update requested for Kyivvodokanal Cabinet")
-        await coordinator.async_request_refresh()
+        await coordinator.async_refresh()
 
     hass.services.async_register(
         DOMAIN, "update_data", async_update_data, schema={}
@@ -69,7 +69,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
             )
 
             # Refresh data after submission
-            await coordinator.async_request_refresh()
+            await coordinator.async_refresh()
 
         except KyivvodokanalApiError as err:
             _LOGGER.error("Failed to submit readings: %s", err)

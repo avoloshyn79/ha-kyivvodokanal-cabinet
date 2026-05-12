@@ -43,4 +43,4 @@ class KyivvodokanalUpdateButton(KyivvodokanalEntity, ButtonEntity):
     async def async_press(self) -> None:
         """Handle the button press."""
         _LOGGER.info("Manual update requested via button")
-        await self.coordinator.async_request_refresh()
+        await self.coordinator.async_refresh()
