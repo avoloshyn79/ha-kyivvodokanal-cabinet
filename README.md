@@ -1,3 +1,5 @@
+<img src="icon.png" alt="logo" width="60" align="left" style="margin-right:10px">
+
 # Інтеграція Kyivvodokanal Cabinet
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
@@ -48,7 +50,7 @@
    - **Назва**: Дружня назва для вашого екземпляра інтеграції
    - **Базовий URL API**: `https://my.vodokanal.kiev.ua` (за замовчуванням)
    - **Сесійний cookie**: Ваш cookie аутентифікації з сайту Kyivvodokanal
-   - **Заголовок Authorization**: Bearer token (необов'язково)
+   - **Заголовок Authorization**: Bearer token
    - **Інтервал оновлення**: Як часто оновлювати дані (у хвилинах, за замовчуванням: 1440)
 
 ### Як отримати сесійний cookie
@@ -61,6 +63,11 @@
 6. Знайдіть будь-який запит до API (наприклад, `/api/warehouse/consumer/payments/history`)
 7. Скопіюйте повне значення заголовку `Cookie` з цього запиту
 8. Вставте це значення до конфігурації інтеграції
+
+## Приклад отримання **Сесійний cookie** та **Заголовок Authorization**
+<p align="center">
+  <img src="instructions.png" alt="Kyivvodokanal Cabinet">
+</p>
 
 ### Оновлення cookie після закінчення сесії
 
