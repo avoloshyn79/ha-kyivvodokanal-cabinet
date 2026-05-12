@@ -5,7 +5,7 @@
   "documentation": "https://my.vodokanal.kiev.ua/",
   "iot_class": "cloud_polling",
   "requirements": [],
-  "version": "0.2.1",
+  "version": "0.2.2",
   "issue_tracker": "https://github.com/avoloshyn79/ha-kyivvodokanal-cabinet/issues",
   "codeowners": ["@avoloshyn79"]
 }
