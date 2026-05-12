@@ -1,4 +1,4 @@
-<img src="icon.png" alt="logo" width="60" align="left" style="margin-right:10px">
+<img src="custom_components/kyivvodokanal_cabinet/brand/icon.png" alt="logo" width="60" align="left" style="margin-right:10px">
 
 # Інтеграція Kyivvodokanal Cabinet
 
