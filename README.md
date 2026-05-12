@@ -64,7 +64,7 @@
 7. Скопіюйте повне значення заголовку `Cookie` з цього запиту
 8. Вставте це значення до конфігурації інтеграції
 
-## Приклад отримання **Сесійний cookie** та **Заголовок Authorization**
+### Приклад отримання **Сесійний cookie** та **Заголовок Authorization**
 <p align="center">
   <img src="instructions.png" alt="Kyivvodokanal Cabinet">
 </p>
